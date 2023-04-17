@@ -288,6 +288,19 @@ h1.triga-head {
   font-family: "big-caslon-fb", serif;
 font-weight: 400;
 font-style: normal;
+    position: relative;
+  top: 18px;
+  left: 10px;
   
 }
+
+.triga-header {
+}
+
+img.triga-logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
 
