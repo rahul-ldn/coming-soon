@@ -291,6 +291,7 @@ font-style: normal;
     position: relative;
   top: 18px;
   left: 10px;
+  font-size: 4em;
   
 }
 
@@ -299,8 +300,8 @@ font-style: normal;
 
 img.triga-logo {
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
 }
 
 
