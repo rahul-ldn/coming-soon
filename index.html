@@ -36,13 +36,20 @@
                     </div>
                     <p class=slogan>Please excuse this landing page whilst we work on our website. <BR>
                         We look forward to sharing case studies of our work, as well as highlighting the achievements of our clients, past and present.</p>
-                    <form class=form-subscribe "https://formspree.io/f/xnqyoeby" method="post"  >
-                             <input name="email" for="email-address" id="email-address" type=email class=form placeholder="Your email address"
-                            required> 
-                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                        <button type=submit>Subscribe</button>
-                        <input type="hidden" name="message" id="message" value="Website Outreach">
-                        </form>
+                        
+                        
+                        <form class=form-subscribe
+  action="https://formspree.io/f/xnqyoeby"
+  method="POST"
+>
+
+    <input type="email" name="email" class=form placeholder="Your email address"
+                            required>
+  <!-- your other form fields go here -->
+  <button type="submit">Contact Us</button>
+</form>
+                        
+                       
                 </div>
          <!--       <ul class=icon-list>
                     <li class=icon><a class=twitter href=google.com></a></li>
